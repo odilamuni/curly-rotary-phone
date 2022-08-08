@@ -1,14 +1,40 @@
+body{
+  height: 100vh;
+  background: rgb(108, 56, 133);
+}
+
+.op1{
+  background: rgb(185, 142, 142);
+}
+.op2{
+  background: rgb(219, 218, 148);
+}
+.op3{
+  background: rgb(214, 84, 84);
+}
 
 
+a{
+  text-decoration: none;
+}
 
 .container{
   padding: 10%;
 }
 
-.prompt{
+.prompt,
+.reply{
 font-size: 25px;
 text-align: center;
 font-family: "Josefin Sans", sans-serif;
+}
+.prompt{
+  color: whitesmoke;
+}
+.reply{
+padding: 20%;
+text-align: center;
+font-size: 30px;
 }
 
 .cards-list {
@@ -69,6 +95,15 @@ font-family: "Josefin Sans", sans-serif;
   color: black;
 }
 
+
+footer a{
+  background-color: whitesmoke;
+  position: fixed;
+  bottom: 15px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1%;
+}
 
 
 
